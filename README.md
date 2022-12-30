@@ -7,6 +7,10 @@ Using flexbox to design and build layout for a fictional company home page calle
 
 <kbd>https://user-images.githubusercontent.com/88211866/210115631-fa36b50c-7efd-4929-a79a-5b47f806ca5d.mp4</kbd>
 
+
+https://user-images.githubusercontent.com/88211866/210115631-fa36b50c-7efd-4929-a79a-5b47f806ca5d.mp4
+
+
 ## Features
 * Inspired by the Netflix homepage
 * Uses Flexbox to design and build the page
