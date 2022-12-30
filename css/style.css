@@ -28,6 +28,12 @@ nav {
     height: 3.33rem;
 }
 
+.logo img {
+    display: inline-block;
+    height: 2.22rem;
+    object-fit: stretch;
+}
+
 nav ul li {
     display: inline;
 }
