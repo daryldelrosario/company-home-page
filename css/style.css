@@ -1,3 +1,4 @@
+/* Universal */
 * {
     padding: 0;
     margin: 0;
@@ -7,9 +8,44 @@
     border: 1px red solid;
 }
 
+html {
+    font-size: 16px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.77)
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.33rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.11rem;
+    color: white;
+}
+
+nav ul li::before {
+    content: "   "
+}
+
+header {
+    height: 44.4rem;
+    background-image: url(../img/fakeflix-banner-wlogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
