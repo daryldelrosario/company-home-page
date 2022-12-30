@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* Visual Aid Purpose */
-    /* border: 1px red solid; */
+    border: 1px red solid;
 }
 
 html {
@@ -23,6 +23,10 @@ body {
 
 .lato {
     font-family: "Lato", sans-serif;
+}
+
+.heebo {
+    font-family: "Heebo", sans-serif;
 }
 
 .top-line {
@@ -64,7 +68,7 @@ nav ul li a {
 .nav-links a:hover {
     color:rgba(0, 255, 0, 0.55);
     text-decoration: underline;
-    box-shadow: 0 0 111px 11px rgba(255, 255, 255, 0.77)
+    text-shadow: rgba(255, 255, 255, 1) 0px 0px 22px;
 }
 
 /* Header */
@@ -106,7 +110,23 @@ header {
 /* Section - Mission */
 #mission {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
-    color: red;
-    height: 111px;
+    height: 222px;
 }
+
+#quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 111px;
+    width: 80%;
+}
+
+#quote .quotation {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+/* Section - Products */
