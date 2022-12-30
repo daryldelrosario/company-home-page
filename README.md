@@ -1,4 +1,4 @@
-# Design and Build using Flexbox: FakeFlix
+# FakeFlix: Design and Built Using Flexbox
 Using flexbox to design and build layout for a fictional company home page called Fake Flix. Inspired by the Netflix homepage.
 
 ## <a href="https://daryldelrosario.github.io/company-home-page/">Live Demo</a>   
