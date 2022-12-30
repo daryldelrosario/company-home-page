@@ -180,6 +180,32 @@ header {
 }
 
 /* Section - Employees */
+#employees {
+    padding: 1rem;
+}
+
+#employees h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 #employees .gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 333px;
+}
+
+.gallery .profile {
+    padding: 0 1rem;
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
