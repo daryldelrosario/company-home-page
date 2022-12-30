@@ -20,6 +20,10 @@ body {
     background-color: rgba(0, 0, 0, 0.77)
 }
 
+.lato {
+    font-family: "Lato", sans-serif;
+}
+
 /* Nav */
 nav {
     display: flex;
@@ -52,6 +56,11 @@ nav ul li a {
     color: white;
 }
 
+.nav-links a:hover {
+    color:rgba(255, 0, 0, 0.55);
+    text-decoration: underline;
+}
+
 /* Header */
 header {
     display: flex;
@@ -62,4 +71,29 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.btn {
+    height: 3.4375rem;
+    width: 13.875rem;
+    background-color: rgba(255, 0, 0, 0.55);
+    color: black;
+    border-radius: 0.6875rem;
+    font-weight: bolder;
+    font-size: 1.57rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgba(0, 255, 0, 0.55);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0 rgba(255, 255, 255, 0.77);
+}
+
+.btn span {
+    display: block;
 }
