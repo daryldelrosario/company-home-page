@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* Visual Aid Purpose */
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 html {
@@ -31,6 +31,10 @@ body {
 
 .top-line {
     border-top: 11px solid rgba(55, 55, 55, 0.77);
+}
+
+.glow {
+    box-shadow: 0 0 50px 15px rgba(255, 255, 255, 0.77);
 }
 
 /* Nav */
@@ -136,9 +140,37 @@ header {
 }
 
 #products article .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
 }
 
+#products .text {
+    width: 60%;
+}
+
+.text h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.77rem;
+}
+
+.text h3 {
+    font-weight: normal;
+    text-align: justify;
+}
+
 #products article .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
+    padding: 1.11rem;
+}
+
+#products img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
