@@ -23,9 +23,15 @@ body {
 /* Nav */
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 3.33rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
@@ -36,6 +42,7 @@ nav {
 
 nav ul li {
     display: inline;
+    padding: 0 1.11rem;
 }
 
 nav ul li a {
@@ -44,10 +51,7 @@ nav ul li a {
     color: white;
 }
 
-nav ul li::before {
-    content: "   "
-}
-
+/* Header */
 header {
     height: 44.4rem;
     background-image: url(../img/fakeflix-banner.png);
