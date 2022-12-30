@@ -57,8 +57,9 @@ nav ul li a {
 }
 
 .nav-links a:hover {
-    color:rgba(255, 0, 0, 0.55);
+    color:rgba(0, 255, 0, 0.55);
     text-decoration: underline;
+    box-shadow: 0 0 111px 11px rgba(255, 255, 255, 0.77)
 }
 
 /* Header */
@@ -89,9 +90,8 @@ header {
 .btn:hover {
     background-color: rgba(0, 255, 0, 0.55);
     color: white;
-    font-size: 2rem;
     cursor: pointer;
-    box-shadow: 10px 10px 5px 0 rgba(255, 255, 255, 0.77);
+    box-shadow: 0 0 50px 15px rgba(255, 255, 255, 0.77);
 }
 
 .btn span {
