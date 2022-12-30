@@ -3,9 +3,9 @@ Using flexbox to design and build layout for a fictional company home page calle
 
 ## <a href="https://daryldelrosario.github.io/company-home-page/">Live Demo</a>   
 
-<kbd><video src="./mp4/live-demo.mp4" controls width="100%"></kbd> 
+<kbd><video src="./mp4/live-demo.mp4" controls width="100%"></video></kbd> 
 
-<kbd>https://user-images.githubusercontent.com/88211866/210115631-fa36b50c-7efd-4929-a79a-5b47f806ca5d.mp4</kbd>
+<kbd><video src="https://user-images.githubusercontent.com/88211866/210115631-fa36b50c-7efd-4929-a79a-5b47f806ca5d.mp4"></kbd>
 
 
 https://user-images.githubusercontent.com/88211866/210115631-fa36b50c-7efd-4929-a79a-5b47f806ca5d.mp4
