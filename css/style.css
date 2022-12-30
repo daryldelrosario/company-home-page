@@ -26,6 +26,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 3.33rem;
+    background-color: black;
 }
 
 .logo {
@@ -53,6 +54,9 @@ nav ul li a {
 
 /* Header */
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 44.4rem;
     background-image: url(../img/fakeflix-banner.png);
     background-position: center;
