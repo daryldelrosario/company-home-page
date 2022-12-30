@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* Visual Aid Purpose */
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 html {
@@ -17,11 +17,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.77)
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
 }
 
 .lato {
     font-family: "Lato", sans-serif;
+}
+
+.top-line {
+    border-top: 11px solid rgba(55, 55, 55, 0.77);
 }
 
 /* Nav */
@@ -96,4 +101,12 @@ header {
 
 .btn span {
     display: block;
+}
+
+/* Section - Mission */
+#mission {
+    display: flex;
+    background-color: black;
+    color: red;
+    height: 111px;
 }
