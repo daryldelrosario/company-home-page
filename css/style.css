@@ -130,3 +130,15 @@ header {
 }
 
 /* Section - Products */
+#products article {
+    height: 333px;
+    display: flex;
+}
+
+#products article .content {
+    width: 60%;
+}
+
+#products article .preview {
+    width: 40%;
+}
