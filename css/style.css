@@ -215,3 +215,94 @@ figcaption {
     padding: 0 0.22rem;
     margin: 0.22rem 1rem 1rem 1rem;
 }
+
+/* Media Query for max-width 1200px*/
+@media only screen and (max-width: 1200px) {
+    /* Section - Mission */
+    #mission .quotation {
+        font-size: 2rem;
+    }
+}
+
+
+/* Media Query for max-width 850px */
+@media only screen and (max-width: 850px) {
+    /* Section - Mission */
+    #mission .quotation {
+        font-size: 1.5rem;
+    }
+
+    /* Section - Products */
+    #products .text {
+        width: 90%;
+    }
+
+    /* Section - Employee */
+    #employees figure {
+        width: 90%;
+    }
+}
+
+/* Media Query for max-width 590px */
+@media only screen and (max-width: 590px) {
+    /* Nav */
+    nav ul li {
+        display: inline;
+        padding: 0 1rem;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+    }
+
+    /* Section - Mission*/
+    #mission {
+        height: 111px;
+    }
+
+    #mission .quotation {
+        font-size: 1.5rem;
+    }
+
+    /* Section - Products*/
+    #products {
+        padding: 1rem;
+    }
+
+    #products .text {
+        width: 90%;
+    }
+
+    /* Section - Employees */
+    #employees {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #employees .gallery {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #employees figure {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #employees figcaption {
+        margin: 1rem;
+    }
+}
+
+/* Media Query for max-width 375px */
+@media only screen and (max-width: 375px) {
+    /* Section - Mission*/
+    #mission .quotation {
+        font-size: 0.77rem;
+    }
+}
