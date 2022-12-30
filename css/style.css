@@ -50,7 +50,7 @@ nav ul li::before {
 
 header {
     height: 44.4rem;
-    background-image: url(../img/fakeflix-banner-wlogo.png);
+    background-image: url(../img/fakeflix-banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
