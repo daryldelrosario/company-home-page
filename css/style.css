@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* Visual Aid Purpose */
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 html {
@@ -63,13 +63,13 @@ nav ul li {
     padding: 0 1.11rem;
 }
 
-nav ul li a {
+nav ul li a, .links {
     text-decoration: none;
     font-size: 1.11rem;
     color: white;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, .links:hover {
     color:rgba(0, 255, 0, 0.55);
     text-decoration: underline;
     text-shadow: rgba(255, 255, 255, 1) 0px 0px 22px;
@@ -216,6 +216,24 @@ figcaption {
     margin: 0.22rem 1rem 1rem 1rem;
 }
 
+/* Section - Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+footer .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .content span {
+    display: block;
+}
+
 /* Media Query for max-width 1200px*/
 @media only screen and (max-width: 1200px) {
     /* Section - Mission */
@@ -234,7 +252,7 @@ figcaption {
 
     /* Section - Products */
     #products .text {
-        width: 90%;
+        width: 70%;
     }
 
     /* Section - Employee */
@@ -257,7 +275,7 @@ figcaption {
         color: white;
     }
 
-    /* Section - Mission*/
+    /* Section - Mission */
     #mission {
         height: 111px;
     }
@@ -266,13 +284,13 @@ figcaption {
         font-size: 1.5rem;
     }
 
-    /* Section - Products*/
+    /* Section - Products */
     #products {
         padding: 1rem;
     }
 
     #products .text {
-        width: 90%;
+        width: 77%;
     }
 
     /* Section - Employees */
@@ -301,8 +319,44 @@ figcaption {
 
 /* Media Query for max-width 375px */
 @media only screen and (max-width: 375px) {
-    /* Section - Mission*/
+    /* Nav */
+    .logo img {
+        display: inline-block;
+        height: 1.43rem;
+        object-fit: stretch;
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 0 0.22rem;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-size: 0.77rem;
+        color: white;
+    }
+
+    /* Section - Mission */
+    #quote {
+        width: 100%;
+    }
+
     #mission .quotation {
+        font-size: 1rem;
+    }
+
+    /* Section - Product */
+    #products article {
+        height: 222px;
+        margin: 1rem 0;
+    }
+
+    .text h2 {
+        font-size: 1.11rem;
+    }
+
+    #products .text {
         font-size: 0.77rem;
     }
 }
