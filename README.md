@@ -3,7 +3,7 @@ Using flexbox to design and build layout for a fictional company home page calle
 
 ## <a href="https://daryldelrosario.github.io/company-home-page/">Live Demo</a>   
 
-<kbd><img src="./gif/live-demo-quality.gif" alt="live demo gif" style="height: 222px"></kbd>
+<kbd><a href="https://daryldelrosario.github.io/company-home-page/"><img src="./gif/live-demo-quality.gif" alt="live demo gif" style="width: 100%"></kbd>
 
 ## Features
 * Inspired by the Netflix homepage
